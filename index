@@ -1,1 +1,75 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday!</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    header h1 {
+        color: #333;
+    }
+    main {
+        padding: 10px;
+    }
+    .birthday-wish {
+        margin-bottom: 20px;
+    }
+    .picture {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .picture img {
+        max-width: 100%;
+        border-radius: 8px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+    .picture p {
+        margin-top: 10px;
+        color: #666;
+    }
+    .closing-message {
+        text-align: center;
+        margin-top: 20px;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Happy Birthday, [Girlfriend's Name]!</h1>
+        </header>
+        <main>
+            <section class="birthday-wish">
+                <p>Dear [Girlfriend's Name],</p>
+                <p>Happy Birthday! You mean the world to me and I'm so grateful to have you in my life.</p>
+                <p>Here are some special moments captured just for you:</p>
+            </section>
+            <section class="picture">
+                <img src="image1.jpg" alt="Picture 1">
+                <p>Caption for Picture 1</p>
+            </section>
+            <section class="picture">
+                <img src="image2.jpg" alt="Picture 2">
+                <p>Caption for Picture 2</p>
+            </section>
+            <section class="closing-message">
+                <p>Wishing you a day filled with love, joy, and all your heart desires. H
