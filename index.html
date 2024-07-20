@@ -3,60 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday Wishes</title>
+    <title>Happy Birthday!</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            margin: 20px;
-        }
-
-        #container {
-            max-width: 600px;
-            margin: auto;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            color: #ff4500;
-        }
-
-        p {
-            font-size: 18px;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+        header {
+            background-color: #ffcccb;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            font-size: 2em;
             color: #333;
         }
-
-        img {
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .birthday-wishes {
+            margin-bottom: 20px;
+        }
+        .image-gallery {
+            text-align: center;
+        }
+        .image-gallery h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .image-container img {
             max-width: 100%;
             height: auto;
-            border-radius: 5px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
             margin-top: 20px;
         }
-
-        #footer {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #777;
+        footer p {
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div id="container">
-        <h1>Happy Birthday, Lolyy!</h1>
-        <p>I Love You So Much Bgd bsotk,</p>
-        <p>Wishing you a fantastic birthday filled with joy, laughter, and all the things you love. May this year be your best one yet!</p>
-        <img src="birthday.jpg" alt="Birthday Celebration Image">
-        <p>Cheers to another year of amazing memories and adventures together!</p>
-        <p>Best wishes,<br>Mo2</p>
-    </div>
-
-    <div id="footer">
-        <p>Created with All Love Ya Habebtyy</p>
-    </div>
+    <header>
+        <h1>Happy Birthday, [Your Girlfriend's Name]!</h1>
+    </header>
+    <main>
+        <section class="birthday-wishes">
+            <p>Dear [Your Girlfriend's Name],</p>
+            <p>On your special day, I just want to let you know how much you mean to me. You bring so much joy and love into my life, and I feel incredibly lucky to have you.</p>
+            <p>Here’s to many more birthdays together filled with love, laughter, and unforgettable moments.</p>
+            <p>With all my love,</p>
+            <p>[Your Name]</p>
+        </section>
+        <section class="image-gallery">
+            <h2>Memories Together</h2>
+            <div class="image-container">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+                <!-- Add more images as needed -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Your Name</p>
+    </footer>
 </body>
 </html>
